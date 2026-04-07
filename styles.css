@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "my-font";
+    src: url(./Norse.otf) format('otf'); 
+}
+
+
+
+#img{
+    height: 934px;
+    width: 700px;
+    background-image:url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     
+}
+#form{
+    height: 934px;
+    width: 1400px;
+}
+ #container{
+    display: flex;
+    height: 917px;
+    justify-content:space-between ;
+    margin : -8;
+    padding-bottom: 17px;
+ }
+ #log{
+    margin-top:200px;
+    height:180px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      flex-direction: row ;
+      align-items: center;
+      justify-content: center;
+ }
+ #odi{
+    color: white;
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ #fifa{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+ }
+ #fifa a{
+    color: white;
+ }
+ #intro{
+   font-size: 29px;
+   width: 550px;
+   margin-left: 300px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 500;
+   margin-top: 150px;
+   text-align: center;
+   margin-bottom: 60px;
+   
+ }
+ legend{
+   font-size: 29px;
+   margin-bottom: 50px;
+   margin-top: 20px;
+   margin-left: 480px;
+ }
+ form{
+   background-color:whitesmoke;
+   height: 360px;
+   display: flex;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+   
+ }
+ #first{
+   display: flex;
+   flex-direction: column;
+   margin-left: 0px;
+   height: max-content;
+   width: max-content;
+   height: max-content;
+   
+   
+ }
+ #second{
+   display: flex;
+   flex-direction: column;
+   margin-top: 103px;
+   margin-left: 10px;
+   height: max-content;
+   width: 400px;
+ }
+#first input{
+   margin-bottom:40px;
+   width: 260px;
+   height: 30px;
+      border: 1px solid #E5E7EB;
+      border-radius: 6px;
+      margin-left: 270px;
+
+}
+#second input{
+   margin-bottom: 40px;
+    width: 260px;
+   height: 30px;
+   border: 1px solid #E5E7EB;
+      border-radius: 6px;
+
+}
+#first label{
+   margin-left: 270px;
+}
+input:focus{
+   outline-color: blue;
+   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+   transition:  0.3s ease;
+         border: 1px solid #E5E7EB;
+         
+
+}
+input:invalid{
+   outline-color:red ;
+}
+
+button{
+   color: white;
+   background-color: #596D48;
+   border: 0.5px solid black;
+  border-radius: 5px;
+  margin-left: 480px;
+  width: 220px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+button:hover{
+   cursor: pointer;
+   background-color: green;
+}
+button:focus{
+   background-color: olive;
+}
+#last{
+   margin-left: 460px;
+   margin-top: 50px;
+   font-size: 23px;
+}
+ 
+a{
+   color: #596D48;
+   text-decoration: none;
+}
